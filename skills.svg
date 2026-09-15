@@ -1,0 +1,47 @@
+<svg fill="none" width="520" height="120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .badge {
+      transition: transform 0.3s ease, fill 0.3s ease;
+      cursor: pointer;
+    }
+    .badge:hover {
+      transform: translateY(-5px);
+    }
+    .text {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      fill: #ffffff;
+      font-size: 14px;
+    }
+    .text-dark {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      fill: #0d1b2a;
+      font-size: 14px;
+    }
+  </style>
+
+  <!-- Java Badge -->
+  <g class="badge">
+    <rect x="10" y="20" width="110" height="40" rx="8" fill="#03045e"/>
+    <text x="65" y="45" class="text" text-anchor="middle">Java</text>
+  </g>
+
+  <!-- Python Badge -->
+  <g class="badge">
+    <rect x="130" y="20" width="110" height="40" rx="8" fill="#0077b6"/>
+    <text x="185" y="45" class="text" text-anchor="middle">Python</text>
+  </g>
+
+  <!-- HTML Badge -->
+  <g class="badge">
+    <rect x="250" y="20" width="110" height="40" rx="8" fill="#00b4d8"/>
+    <text x="305" y="45" class="text" text-anchor="middle">HTML</text>
+  </g>
+
+  <!-- SQL Badge -->
+  <g class="badge">
+    <rect x="370" y="20" width="110" height="40" rx="8" fill="#90e0ef"/>
+    <text x="425" y="45" class="text-dark" text-anchor="middle">SQL</text>
+  </g>
+</svg>
