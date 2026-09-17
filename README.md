@@ -6,6 +6,7 @@ Welcome! You made it to my profile 🎉
 A second-year CompSci student who's passionate about building software that solves real-world problems and pushes scientific boundaries.
 
 * Interests: Signal Processing & Acquisition, Full Stack & Web Development, Database & Application Architecture
+* website: erinrobinson.fyi
 * Connect: erinrobinsont@gmail.com
 
 ## Tech Stack 
